@@ -5,10 +5,43 @@ body {
   font-size: 16px;
   line-height: 32px;
   color: #222222;
-  background-color: #f2f4f6;
+  background-color: #F5FFFA;
   background-image: url("img/hero-bg.jpg");
   background-repeat: no-repeat;
   background-position: top center;
+}
+
+nav {
+  text-align: right;
+  padding-right: 10%;
+  /* размеры кнопки
+ width: 100px;
+ height: 40px;*/
+ /* граница элемента
+ border: 2px solid black;
+ /* белый фон
+ background-color: white;*/
+ /* сложно — чтобы кнопка была по центру экрана
+ position: absolute;
+ transform: translate(-50%, -50%);
+ top: 50%;
+ left: 50%;*/
+
+ /* уберем подсветку кнопки при клике */
+ outline: none;
+ /* приятно — плавные переходы при наведении */
+ transition: all .4s ease;
+ /* настройки шрифта
+  font-family: 'Arial Narrow', sans-serif;
+  font-size: 20px;*/
+}
+
+/* стили для меню при наведении */
+.nav-button:hover {
+  /* курсор — палец */
+  cursor: pointer;
+  /* малиновая тень */
+box-shadow: 4px 4px ForestGreen;
 }
 
 .container {
@@ -30,7 +63,7 @@ body {
 
 .page-header a {
   margin-left: 56px;
-  color: #288be6;
+  color: #556B2F;
   text-decoration: none;
   background-repeat: no-repeat;
   background-position: left;
@@ -57,7 +90,7 @@ body {
 
 .heading {
   margin: 0 0 16px;
-  font-family: "Old Standard TT", "Times", "Times New Roman", serif;
+  font-family: "Old Standard TT", "Times", "Times New Roman", sans-serif;
   font-size: 88px;
   line-height: 96px;
   font-weight: 400;
@@ -75,7 +108,7 @@ body {
 
 .subheading {
   margin: 0 0 56px;
-  font-family: "Old Standard TT", "Times", "Times New Roman", serif;
+  font-family: "Old Standard TT", "Times", "Times New Roman", sans-serif;
   font-size: 64px;
   line-height: 80px;
   font-weight: 400;
@@ -165,19 +198,18 @@ body {
   text-decoration: none;
   text-transform: uppercase;
   border-radius: 4px;
-  background-color: #288be6;
+  background-color: #6B8E23;
   color: #ffffff;
 }
 
 .page-footer {
   padding: 40px 0;
-  background-color: #00417d;
-  color: #ffffff;
+  background-color: #228B22;
 }
 
 .page-footer a {
   margin-left: 56px;
-  color: inherit;
+  color: #ffffff;
   text-decoration: none;
   background-repeat: no-repeat;
   background-position: left;

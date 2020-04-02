@@ -4,15 +4,17 @@ body {
   font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
   font-size: 16px;
   line-height: 32px;
-  color: #222222;
-  background-color: #F5FFFA;
-  background-image: url("img/hero-bg.jpg");
+  color: #ffffff;
+  background-color: #151c23;
+  /*background-image: url("img/hero-bg.jpg");*/
   background-repeat: no-repeat;
   background-position: top center;
 }
 
 nav {
-  text-align: right;
+  display: flex;
+  justify-content: flex-end;
+  /*text-align: right;*/
   padding-right: 10%;
   /* размеры кнопки
  width: 100px;
@@ -41,7 +43,7 @@ nav {
   /* курсор — палец */
   cursor: pointer;
   /* малиновая тень */
-box-shadow: 4px 4px ForestGreen;
+box-shadow: 4px 4px #2e4340;
 }
 
 .container {
@@ -63,7 +65,7 @@ box-shadow: 4px 4px ForestGreen;
 
 .page-header a {
   margin-left: 56px;
-  color: #556B2F;
+  color: #ffffff;
   text-decoration: none;
   background-repeat: no-repeat;
   background-position: left;
@@ -204,7 +206,7 @@ box-shadow: 4px 4px ForestGreen;
 
 .page-footer {
   padding: 40px 0;
-  background-color: #228B22;
+  background-color: #1e252d;
 }
 
 .page-footer a {

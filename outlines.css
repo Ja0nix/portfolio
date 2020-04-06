@@ -64,7 +64,11 @@ h3::before {
   color: #ff994f;
 }
 
-p {
+p,
+ul,
+li,
+a,
+dl {
   background-color: #ffffff;
   border: 2px solid #f36dff;
 }
@@ -72,6 +76,26 @@ p {
 p::before {
   color: #f36dff;
   content: "p";
+}
+
+ul::before {
+  color: #f36dff;
+  content: "ul";
+}
+
+li::before {
+  color: #f36dff;
+  content: "li";
+}
+
+a::before {
+  color: #f36dff;
+  content: "a";
+}
+
+dl::before {
+  color: #f36dff;
+  content: "dl";
 }
 
 * {

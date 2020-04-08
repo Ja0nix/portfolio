@@ -3,12 +3,14 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Rubik+Mono+One&family=Russo+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Портфолио Junior верстальщика</title>
   </head>
 
   <body>
+
+
+    <!--    old version before design and bem 
     <header class="page-header">
       <nav class="main-menu">
         <ul class="site-navigation">
@@ -17,10 +19,54 @@
         <li class="nav-button" ><a href="#contact">Контакты</a></li>
       </ul>
       </nav>
-    </header>
+    </header> -->
 
-<main>
-    <section class="hero-image">
+    <div class="menu">
+      <a class="menu__link text" href="">Навыки</a>
+      <a class="menu__link text" href="">Портфолио</a>
+      <a class="menu__link text" href="">Контакты</a>
+    </div>
+
+    <div class="about">
+      <div class="about__body">
+        <div class="adout__title title">Верстка сайтов</div>
+        <div class="about__text subtitle">HTML/CSS</div>
+      </div>
+      <div class="about__image"><img src="img/about/01.png"></div>
+    </div>
+
+    <div class="portfolio">
+       <div class="portfolio__title title">Мои работы</div>
+       <div class="portfolio__subtitle subtitle">Верстка готового дизайна из Figma</div>
+       <div class="portfolio__all">
+        <div class="portfolio__project">
+         <div class="portfolio__icon">
+           <img src="img/portfolio/01.png" alt="Сайт" width="200px">
+         </div>
+         <div class="portfolio__title subtitle">Проект</div>
+         <div class="portfolio__details text">Landing page for beauty specialist</div>
+         </div>
+         <div class="portfolio__project">
+         <div class="portfolio__icon">
+           <img src="img/portfolio/02.png" alt="Сайт" width="200px">
+         </div>
+         <div class="portfolio__title subtitle">Project2</div>
+         <div class="portfolio__details text">Landing page for beauty specialist</div>
+        </div>
+        <div class="portfolio__project">
+         <div class="portfolio__icon">
+           <img src="img/portfolio/03.png" alt="Сайт" width="200px">
+         </div>
+         <div class="portfolio__title subtitle">Project3</div>
+         <div class="portfolio__details text">Landing page for beauty specialist</div>
+        </div>
+        </div>     
+     </div> 
+     
+
+      <!--   old version before design and bem
+    <main>
+      <section class="hero-image">
           <h1>Привет! Меня зовут Яна</h1>
           <p>я - Junior верстальщик</p>
           <ul>
@@ -29,28 +75,28 @@
             <li>Непрерывное развитие</li>
           </ul>
           <img src="files/me.png" width="300px" alt="Тут моя фотография">
-    </section>
+      </section>
 
-  <section class="intro">
-    <h2>Давайте познакомимся</h2>
-    <h3 id="me">Пара слов о себе</h3>
+      <section class="intro">
+      <h2>Давайте познакомимся</h2>
+      <h3 id="me">Пара слов о себе</h3>
       <p>Я прошла курсы:</p>
       <ul>
         <li><a href="https://praktikum.yandex.ru/" target="_blank">Вводный курс по html и css на Яндекс.Практикум</a></li>
         <li><a href="https://htmlacademy.ru/courses/basic-html-css" target="_blank">Знакомство с HTML и CSS</a></li>
       </ul>
-    <h3>Чем могу быть полезна</h3>
+      <h3>Чем могу быть полезна</h3>
       <p>Сверстаю landing или сайт интернет-магазина по готовым макетам.</p>
-    <h3>Мои навыки</h3>
+      <h3>Мои навыки</h3>
         <dl class="skills-list">
           <dt class="skill-html">HTML</dt>
           <dd class="level"><div style="width: 60%;">60%</div></dd>
           <dt class="skill-css">CSS</dt>
           <dd class="level"><div style="width: 40%;">40%</div></dd>
         </dl>
-  </section>
+      </section>
 
-    <section class="portfolio">
+      <section class="portfolio">
       <h2>Мои работы</h2>
       <ul class="portfolio-list">
         <li class="portfolio-item-frame">
@@ -75,10 +121,9 @@
           </div>
         </li>
       </ul>
+      </section>
 
-    </section>
-
-    <section class="promo">
+      <section class="promo">
       <h2>Выполняю заказы на верстку</h2>
       <ul class="promo-list">
         <li class="promo-item"><h3>Langing Pages</h3></li>
@@ -86,14 +131,14 @@
         <li class="promo-item"><h3>информационных сайтов</h3></li>
       </ul>
       <a href="">Заказать</a>
-    </section>
-</main>
+      </section>
+    </main> 
 
     <footer class="page-footer">
       <div>
         <a class="footer-email" href="mailto:frisconi@icloud.com">frisconi@icloud.com</a>
         <a class="footer-phone" href="tel:+79602739386">+7 960 273 93 86</a>
       </div>
-    </footer>
+    </footer> -->
   </body>
 </html>

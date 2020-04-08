@@ -1,13 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&family=Rubik&family=Russo+One&display=swap');
+
+
 body {
   margin: 0;
   padding: 0;
-  min-width: 960px;
-  font-family: "Russo+one", "Noto+Serif", "Rubik", sans-serif;
-  font-size: 16px;
-  line-height: 32px;
-  color: #ffffff;
-  background-color: #151c23;
+  font-family: 'Russo One', sans-serif;
+  font-family: 'Noto Serif', serif;
+  font-family: 'Rubik', sans-serif;
 }
+/*   old version before design and bem
 
 h1, h2 {
   font-family: "Russo+one";
@@ -106,4 +107,97 @@ p, li, a {
 .footer-phone {
   padding-left: 25px;
   background-image: url("img/icon-phone-footer.svg");
+} */
+
+
+.title {
+  font-family: 'Russo One', sans-serif;;
+  font-size: 48px;
+  line-height: 69px;
+  color: #000000;
+  position: relative;
+  text-align: center;
+  padding: 0px 0px 23px 0px;
 }
+.subtitle {
+  font-family: 'Noto Serif', sans-serif;
+  font-size: 24px;
+  line-height: 38px;
+  /* identical to box height */
+  color: #000000;
+  text-align: center;
+}
+.text {
+  font-family: 'Rubik', sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  /* identical to box height */
+  color: #000000;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+  padding: 0;
+  margin: 0;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  margin: 47px auto;
+  }
+  .menu__link {
+    text-decoration: none;
+    margin-right: 30px;
+    padding: 0;
+    }
+
+.portfolio {
+}
+
+  .portfolio__title {
+     margin: 0px 0px 23px 0px;
+  }
+
+  .portfolio__subtitle {
+    margin: 0px 0px 0px 0px;
+  }
+
+  .portfolio__all {
+    display: flex;
+    justify-content: center;
+    padding: 64px 135px 137px 135px;
+  }
+
+  .portfolio__project {
+   padding: 0px 15px;
+   box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
+  }
+  .portfolio__icon {
+   text-align: center;
+  }
+  .portfolio__details {
+    text-align: center;
+    }
+
+.about {
+  background-color: #F1F1F2;
+  display: flex;
+  justify-content: center;
+  }
+  .about__body {
+    margin: 154px 126px 0px 162px;
+    padding: 0;
+  }
+  .about__image {
+    text-align: center;
+  }
+  .adout__title {
+    text-align: left;
+    margin-bottom: 60px;
+    padding: 0;
+  }
+  .about__text {
+    text-align: left;
+  }
